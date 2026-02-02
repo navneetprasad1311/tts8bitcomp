@@ -10,7 +10,7 @@ module tt_um_cpu_top_np (
     input inp_loaded,
     output inp_req,
     output [3:0] pc_disp,//PC output
-    output [7:0] Out_display;
+    output [7:0] Out_display,
 
     output a_h, b_h, c_h, d_h, e_h, f_h, g_h,//h-hundred's place
     output a_t, b_t, c_t, d_t, e_t, f_t, g_t,//t-ten's place
