@@ -17,19 +17,7 @@ project:
   # Source files must be in ./src and you must list each source file separately, one per line.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - A_reg.v
-    - B_reg.v
-    - Flag_reg.v
-    - IR_reg.v
-    - MAR_reg.v
-    - Out_dis.v
-    - Out_reg.v
-    - PC.v
-    - RAM.v
-    - alu.v
-    - controlunit.v
-    - cpu_top.v
-    - top.v
+    - computer.v
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
