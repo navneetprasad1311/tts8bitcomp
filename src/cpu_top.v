@@ -1,4 +1,4 @@
-module cpu_top (
+module tt_um_cpu_top_np (
     input clk,
     input reset,
     input start,
